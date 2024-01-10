@@ -1,2 +1,0 @@
-# ChronoView
-time tracking dashboard
