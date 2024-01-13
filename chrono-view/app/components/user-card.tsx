@@ -17,7 +17,7 @@ const UserCard = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-indigo-800 mx-6 w-full px-8 pt-10 pb-8 rounded-b-2xl">
+            <div className="bg-indigo-950 mx-6 w-full px-8 pt-10 pb-8 rounded-b-2xl">
                 <ul className="flex justify-between gap-6 text-indigo-300">
                     <li className="hover:text-white hover:cursor-pointer hover:animate-pulse hover:motion-reduce:animate-pulse">Daily</li>
                     <li className="hover:text-white hover:cursor-pointer hover:animate-pulse hover:motion-reduce:animate-pulse">Weekly</li>
