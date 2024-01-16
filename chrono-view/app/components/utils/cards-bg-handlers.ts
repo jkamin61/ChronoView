@@ -1,9 +1,9 @@
-import exercise from "../../public/icon-exercise.svg";
-import play from "../../public/icon-play.svg";
-import selfCare from "../../public/icon-self-care.svg";
-import social from "../../public/icon-social.svg";
-import study from "../../public/icon-study.svg";
-import work from "../../public/icon-work.svg";
+import exercise from "../../../public/icon-exercise.svg";
+import play from "../../../public/icon-play.svg";
+import selfCare from "../../../public/icon-self-care.svg";
+import social from "../../../public/icon-social.svg";
+import study from "../../../public/icon-study.svg";
+import work from "../../../public/icon-work.svg";
 
 function imageSwitcher(title: string) {
     switch (title) {

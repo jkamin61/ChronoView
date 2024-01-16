@@ -2,7 +2,7 @@ import React from 'react';
 import data from "../data/data.json";
 import Image from "next/image";
 import dots from "../../public/icon-ellipsis.svg";
-import { bgColorSwitcher, imageSwitcher } from "./cards-bg-handlers";
+import { bgColorSwitcher, imageSwitcher } from "./utils/cards-bg-handlers";
 
 const Cards = () => {
     return (
