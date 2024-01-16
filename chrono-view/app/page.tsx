@@ -1,11 +1,11 @@
 import UserCard from "@/app/components/user-card";
-import Card from "@/app/components/card";
+import Cards from "@/app/components/cards";
 
 export default function Home() {
     return (
         <>
             <UserCard></UserCard>
-            <Card></Card>
+            <Cards></Cards>
         </>
     )
 }
