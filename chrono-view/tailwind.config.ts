@@ -10,6 +10,3 @@ const config: Config = {
     plugins: [],
 }
 export default config
-
-//'light-ocean': '#5746EA',
-//             'dark-ocean': '#1D204B',

@@ -6,12 +6,12 @@ import { bgColorSwitcher, imageSwitcher } from "./utils/cards-bg-handlers";
 
 const Cards = () => {
     return (
-        <>
+        <div className="md:flex md:flex-wrap md:justify-between">
             {data.map((item, index) => {
                 return (
                     <div key={index}>
-                        <div className="w-full h-12 rounded-t-2xl relative -z-10 top-8">
-                            <div className={`flex justify-end pr-4 rounded-t-2xl ${bgColorSwitcher(item.title)}`}>
+                        <div className="w-full h-12 rounded-t-2xl relative -z-10 top-8 md:w-80">
+                            <div className={`flex justify-end pr-4 rounded-t-2xl ${bgColorSwitcher(item.title)} `}>
                                 <Image src={imageSwitcher(item.title)} alt="Icon" width="64" height="64"/>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Cards = () => {
                     </div>
                 )
             })}
-        </>
+        </div>
     )
 }
 
